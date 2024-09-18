@@ -1,0 +1,25 @@
+{
+  "name": "storebook_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cypress": "^13.14.2",
+    "cypress-mongodb": "^6.2.1",
+    "cypress-plugin-api": "^2.11.2",
+    "d": "^1.0.2",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.2",
+    "nodemon": "^3.1.4"
+  }
+}
